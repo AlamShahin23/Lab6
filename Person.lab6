@@ -1,0 +1,96 @@
+
+
+
+package com.mycompany.person;
+
+public class Person {
+    
+    String name,gender,address;
+    int age;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+    
+    
+    
+    
+           
+   
+    
+    
+    
+    
+     
+
+
+    public static void main(String[] args) {
+      Person p1=new Person();
+      Person p2=new Person()    ;
+      Person p3=new Person();
+      
+      
+      
+      p1.setName("Shahin");
+      p1.setGender("male");
+      p1.setAddress("Savar");
+      p1.setAge(23);
+      System.out.println();
+      p2.setName("Bushi");
+      p2.setGender("Female");
+      p2.setAddress("Mirpur");
+      p2.setAge(22);
+      System.out.println();
+      
+      
+      
+      
+    System.out.println("Name:"+p1.getName());    
+    System.out.println("Gender:"+p1.getGender());    
+    System.out.println("Age:"+p1.getAge());    
+    System.out.println("Address:"+p1.getAddress());    
+        
+    System.out.println();
+    
+    
+        
+    System.out.println("Name:"+p2.getName());    
+    System.out.println("Gender:"+p2.getGender());    
+    System.out.println("Address:"+p2.getAddress());       
+    System.out.println("Age:"+p2.getAge());     
+         
+    
+   
+    
+      
+      
+    }
+}
